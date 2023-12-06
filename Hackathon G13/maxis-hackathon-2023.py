@@ -1,14 +1,3 @@
-import os
-import subprocess
-
-# Install required packages
-subprocess.call(['pip', 'install', 'pandas'])
-subprocess.call(['pip', 'install', 'streamlit'])
-subprocess.call(['pip', 'install', 'sklearn'])
-subprocess.call(['pip', 'install', 'matplotlib'])
-subprocess.call(['pip', 'install', 'numpy'])
-
-
 import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LinearRegression
