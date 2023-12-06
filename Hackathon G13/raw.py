@@ -142,22 +142,22 @@ def main():
     main_container = st.container()
 
     # Create tabs
-    tabs = ["📦 Dataset", "📊 Overall Call Distribution", "🛒 Filtered Data Insights", "📈 Sites' Call Prediction"]
+    tabs = ["Dataset", "Overall Call Distribution", "Filtered Data Insights", "Sites' Call Prediction"]
     selected_tab = st.sidebar.selectbox("Select Tab", tabs)
 
-    if selected_tab == "📦 Dataset":
+    if selected_tab == "Dataset":
         with main_container:
             display_dataset()
             contact_form()
-    elif selected_tab == "📊 Overall Call Distribution":
+    elif selected_tab == "Overall Call Distribution":
         with main_container:
             display_overall()
             contact_form()
-    elif selected_tab == "🛒 Filtered Data Insights":
+    elif selected_tab == "Filtered Data Insights":
         with main_container:
             display_filter()
             contact_form()
-    elif selected_tab == "📈 Sites' Call Prediction":
+    elif selected_tab == "Sites' Call Prediction":
         with main_container:
             display_prediction()
             contact_form()
