@@ -9,7 +9,7 @@ import numpy as np
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load the dataset
-voice_data = pd.read_excel("V_15MIN_VOICE.xlsx", skiprows=1)
+voice_data = pd.read_excel("Hackathon_G13/V_15MIN_VOICE.xlsx", skiprows=1)
 
 # Drop unnecessary columns
 voice_data.drop(columns=["load_datetime"], inplace=True)
