@@ -135,7 +135,7 @@ def main():
     st.title("Data Visualization and Forecasting Using AI-ML")
 
     # Create a sidebar
-    st.sidebar.image("logo.png", use_column_width=True)
+    st.sidebar.image("Hackathon_G13/logo.png", use_column_width=True)
 
     # Create a container for the main content
     main_container = st.container()
