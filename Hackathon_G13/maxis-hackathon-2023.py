@@ -121,7 +121,7 @@ def contact_form():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     form = """
-    <form action="https://formsubmit.co/kjyuaan@maxis.com.my" method="POST">
+    <form action="https://formsubmit.co/kjyuaan8@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
